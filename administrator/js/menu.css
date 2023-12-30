@@ -1,0 +1,57 @@
+.arrowlistmenu{
+padding:0px 0 0 0px;
+width:200px;
+}
+.arrowlistmenu .menuheader{ 
+font:normal 12px/15px Verdana, Arial, Helvetica, sans-serif;
+color:#FFFFFF;
+border:1px solid #333333;
+text-transform: uppercase;
+padding:5px;
+cursor: hand;
+cursor: pointer;
+margin-bottom:3px;
+background:#FFFFFF;
+/*background: linear-gradient(to bottom, #a1d4fb, #006699);*/
+-moz-border-radius:3px;
+border-radius:3px;
+}
+.arrowlistmenu .openheader{ 
+background:#006699;
+/*background: linear-gradient(to bottom, #F9F9F9, #E2E2E2);*/
+color:#FFFFFF;
+}
+.arrowlistmenu ul{ 
+list-style-type: none;
+margin: 0;
+padding: 0;
+margin-bottom: 4px; 
+}
+
+.arrowlistmenu ul li{
+padding-bottom: 2px;
+background:#000000;
+}
+
+.arrowlistmenu ul li a{
+color:#333333;
+display: block;
+padding: 5px;
+text-decoration: none;
+font-weight: bold;
+font-size: 90%;
+-moz-border-radius:3px;
+border-radius:3px;
+height:20px;
+border:1px solid #E5E5E5;
+background:#FFFFFF;
+}
+
+.arrowlistmenu ul li a:visited{
+color:#006699;
+}
+
+
+.arrowlistmenu ul li a:hover{ 
+color:#333333;
+}
